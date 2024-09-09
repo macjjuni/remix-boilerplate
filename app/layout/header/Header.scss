@@ -1,0 +1,25 @@
+
+.header__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 0 0 $remix__header__height;
+    padding: $remix__layout__padding;
+
+    .header__container__logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 24px;
+    }
+
+    .header__container__nav {
+
+        .header__container__nav__list {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 16px;
+        }
+    }
+}

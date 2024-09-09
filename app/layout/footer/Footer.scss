@@ -1,0 +1,8 @@
+
+.footer__container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex: 0 0 $remix__footer__height;
+    padding: $remix__layout__padding;
+}
